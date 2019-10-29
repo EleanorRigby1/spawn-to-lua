@@ -2,16 +2,6 @@ import xml.etree.ElementTree as ET
 tree = ET.parse('spawn.xml')
 root = tree.getroot()
 
-#remove npc spawn from spawns.xml
-'''
-spawns = root.findall('spawn')
-for spawn in spawns:
-    npcs = spawn.findall('npc') # change to monster to select monster
-    for npc in npcs:
-        spawn.remove(npc) #remove npc tag from spawns
-tree.write('out.xml')
-'''
-
 #get all npc/monster spawns
 f = open("monsterSpawnList.lua", "x") #create a new file. make sure the file dont exist already
 i = 0
