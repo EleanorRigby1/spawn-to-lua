@@ -7,4 +7,5 @@ This converts spawn.xml from OTBR to a list that could be used to spawn system i
 - Rename your map-spawn.xml file to spawn.xml
 - Copy spawn.xml file to the same folder as the script
 - Run the script
+- Just copy the table created within spawnList.lua file
 - To get monster spawns simply change the script to get monster/npc spawn
