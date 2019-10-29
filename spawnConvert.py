@@ -8,7 +8,6 @@ i = 0
 for child in root:
     for spawns in child:
         if spawns.tag == 'npc': #change to monster/nps to get all monster/npc spawns
-            #i = i + 1
             centerx = int(child.get('centerx')) + int(spawns.get('x'))
             centery = int(child.get('centery')) + int(spawns.get('y'))
             centerz = int(child.get('centerz'))
